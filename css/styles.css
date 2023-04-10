@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Arapey', serif;
+}
+
+nav {
+    display: flex;
+    gap: 100px;
+    margin-right: 10vh;
+}
+
+.logo { 
+    width: 50vh;
+    height: 20vh;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    list-style: none;
+    text-align: center;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.vestidos-a-medida {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.vestidoimg {
+    width: 100%;
+    height: 400px;
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 200px;
+    gap: 20px;
+    padding: 20px 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.btn-wsp {
+    width: 90px;
+    height: 30px;
+    background-color: #25D366;
+    border: none;
+    border-radius: 10px;
+}
+
+.contenedor-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin: 20px 20px;
+    
+}
+
+.card1 {
+    height: 400px;
+    width: 300px;
+    background-image: url(../assets/img/IMG-20221230-WA0017.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+}
+
+.card2 {
+    height: 400px;
+    width: 300px;
+    background-image: url(../assets/img/InShot_20220904_000416714.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+}
+
+.card3 {
+    height: 400px;
+    width: 300px;
+    background-image: url(../assets/img/InShot_20221221_203438343.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+}
+
+
+.card4 {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.card4 p span {
+    font-size: 18px;
+}
+
+.card5 {
+    height: 400px;
+    width: 300px;
+    background-image: url(../assets/img/IMG_20210908_194953792_MF_PORTRAIT.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+}
+
+.card6 {
+    height: 400px;
+    width: 300px;
+    background-image: url(../assets/img/Screenshot_20230130-193729-539.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+}
+div h3 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ver-coleccion {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+
+#footer {
+    width: 100%;
+    height: 350px;
+    background-color: #F2D7D7;
+    margin-top: 100px;
+    
+}
+
+.contenedor-footer {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.reserva {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+.pie-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 55px;
+}
+
+a img {
+    width: 80px;
+    height: 60px;
+}
+
+.tarjetas {
+    width: 200px;
+    height: 60px;
+}
