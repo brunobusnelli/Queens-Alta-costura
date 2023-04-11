@@ -38,13 +38,13 @@ a {
 
 .vestidos-a-medida {
     width: 100%;
-    height: 400px;
+    height: 500px;
     position: relative;
 }
 
 .vestidoimg {
     width: 100%;
-    height: 400px;
+    height: 500px;
 }
 
 .overlay {
@@ -64,12 +64,9 @@ a {
     left: 10%;
 }
 
-.btn-wsp {
-    width: 90px;
-    height: 30px;
-    background-color: #25D366;
-    border: none;
-    border-radius: 10px;
+.whatsapp .bi-whatsapp {
+    color: white;
+    font-size: 30px;
 }
 
 .contenedor-cards {
@@ -78,13 +75,13 @@ a {
     align-items: center;
     flex-wrap: wrap;
     gap: 80px;
-    margin: 20px 20px;
+    margin: 50px 20px;
     
 }
 
 .card1 {
-    height: 400px;
-    width: 300px;
+    height: 450px;
+    width: 350px;
     background-image: url(../assets/img/IMG-20221230-WA0017.jpg);
     background-size: cover;
     border-radius: 5px;
@@ -96,8 +93,8 @@ a {
 }
 
 .card2 {
-    height: 400px;
-    width: 300px;
+    height: 450px;
+    width: 350px;
     background-image: url(../assets/img/InShot_20220904_000416714.jpg);
     background-size: cover;
     border-radius: 5px;
@@ -109,8 +106,8 @@ a {
 }
 
 .card3 {
-    height: 400px;
-    width: 300px;
+    height: 450px;
+    width: 350px;
     background-image: url(../assets/img/InShot_20221221_203438343.jpg);
     background-size: cover;
     border-radius: 5px;
@@ -125,21 +122,18 @@ a {
 .card4 {
     display: flex;
     flex-direction: column;
-    height: 400px;
-    width: 300px;
+    height: 450px;
+    width: 350px;
     justify-content: center;
     align-items: center;
     text-align: center;
     gap: 30px;
-}
-
-.card4 p span {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .card5 {
-    height: 400px;
-    width: 300px;
+    height: 450px;
+    width: 350px;
     background-image: url(../assets/img/IMG_20210908_194953792_MF_PORTRAIT.jpg);
     background-size: cover;
     border-radius: 5px;
@@ -151,8 +145,8 @@ a {
 }
 
 .card6 {
-    height: 400px;
-    width: 300px;
+    height: 450px;
+    width: 350px;
     background-image: url(../assets/img/Screenshot_20230130-193729-539.jpg);
     background-size: cover;
     border-radius: 5px;
@@ -186,16 +180,27 @@ div h3 {
     text-align: center;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     gap: 250px;
     font-size: 20px;
     padding-top: 50px;
 }
 
 .reserva {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reserva-aqui {
+    height: 50px;
+    width: 100px;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     color: whitesmoke;
+    text-align: center;
+    padding-top: 13px;
+
 }
 
 .pie-footer {
@@ -207,9 +212,13 @@ div h3 {
     margin-right: 55px;
 }
 
-a img {
-    width: 80px;
-    height: 60px;
+.contenedor-redes {
+    display: flex;
+    gap: 20px;
+}
+
+.redes {
+    font-size: 30px;
 }
 
 .tarjetas {
