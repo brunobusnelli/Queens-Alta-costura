@@ -50,7 +50,7 @@ a {
 .overlay {
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 350px;
     height: 200px;
     gap: 20px;
     padding: 20px 10px;
@@ -62,6 +62,10 @@ a {
     position: absolute;
     top: 25%;
     left: 10%;
+}
+
+.overlay p {
+    font-size: 18px;
 }
 
 .whatsapp .bi-whatsapp {
@@ -89,6 +93,7 @@ a {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    align-items: center;
     gap: 100px;
 }
 
@@ -102,6 +107,7 @@ a {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    align-items: center;
     gap: 100px;
 }
 
@@ -115,6 +121,7 @@ a {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    align-items: center;
     gap: 100px;
 }
 
@@ -128,7 +135,7 @@ a {
     align-items: center;
     text-align: center;
     gap: 30px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .card5 {
@@ -141,6 +148,7 @@ a {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    align-items: center;
     gap: 100px;
 }
 
@@ -154,11 +162,15 @@ a {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    align-items: center;
     gap: 100px;
 }
+
 div h3 {
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    text-align: center;
 }
 
 .ver-coleccion {
