@@ -11,10 +11,34 @@ html {
     font-family: 'Arapey', serif;
 }
 
-nav {
+header {
     display: flex;
     gap: 100px;
-    margin-right: 10vh;
+    margin-right: 3vw;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-menu {
+    background-color: #E1A5A5;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: #FFABAB 1px solid;
+    font-size: 22px;
+    display: none;
+}
+
+@media screen and (max-width: 1100px){
+    nav{
+        display: none;
+    }
+
+     .btn-menu{
+        display: block;
+     }
 }
 
 .logo { 
@@ -240,6 +264,12 @@ div h3 {
     height: 60px;
 }
 
+@media screen and (max-width: 1220px){
+    footer{
+        min-height: 160vh;
+     }
+}
+
 
 
 
@@ -373,11 +403,32 @@ div h3 {
 }
 
 .consultar {
-    height: 50px;
+    height:  50px;
     width: 250px;
     background-color: #E1A5A5;
     border-radius: 30px;
     color:black;
     text-align: center;
     padding-top: 12px;
+}
+.reserva-tu-cita{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 10px;
+    width: 900px;
+	padding: 30px;
+	border-radius: 50px;
+	margin:auto;
+	background-color:#FFABAB;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.Titulo-reserva-tu-cita {
+    padding: 5vh;
+    font-size: 24px;
+}
+
+.citaRegistrada {
+    text-align: center;
 }

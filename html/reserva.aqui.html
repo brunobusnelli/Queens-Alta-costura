@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,30 +15,40 @@
 }
 
 form{
-	width:300px;
-	padding:16px;
-	border-radius:10px;
+	width:900px;
+	padding:30px;
+	border-radius:50px;
 	margin:auto;
 	background-color:#FFABAB;
 }
 
 form label{
-	width:72px;
+	width:500px;
 	font-weight:bold;
 	display:inline-block;
 }
 
 form input[type="text"],
 form input[type="email"]{
-	width:180px;
-	padding:3px 10px;
+	width:500px;
+	padding:5px 15px;
 	border:1px solid #f6f6f6;
 	border-radius:3px;
 	background-color:#f6f6f6;
 	margin:8px 0;
 	display:inline-block;
 }
+form input[type=asunto]{
+    width: 500px;
+    padding: 5px 15px;
+    border:1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color:#f6f6f6;
+    margin:8px 0;
+    display:inline-block;
 
+
+}
 form input[type="submit"]{
 	width:100%;
 	padding:8px 16px;
@@ -69,13 +79,14 @@ textarea{
   </head>
   <body>
     <header>
+        <a href="../index.html">
+            <img src="../assets/img/b2006b28-2cca-40e3-b0d1-fb14dde9effc-removebg-preview.png" class="logo" alt="Logo">
+        </a>
+        <button class="btn-menu"><i class="bi bi-list"></i></button>
         <nav>
-            <a href="../index.html">
-                <img src="../assets/img/b2006b28-2cca-40e3-b0d1-fb14dde9effc-removebg-preview.png" class="logo" alt="Logo">
-            </a>
             <ul>
                 <li>
-                    <a href="">¿Quienes somos?</a>
+                    <a href="../index.html">¿Quienes somos?</a>
                 </li>
                 <li>
                     <a href="">Vestidos de Egreso</a>
@@ -101,9 +112,10 @@ textarea{
             </ul>
         </nav>
     </header>
+    </header>
     <main>
         <section class="vestidos-a-medida">
-            <img src="../assets/img/look-para-quinceanera.jpg" class="vestidoimg" alt="">
+            <img src="../assets/img/WhatsApp Image 2023-04-14 at 13.54.04.jpeg" class="vestidoimg" alt="">
             <div class="overlay">
                 <h2>Vestidos a medida</h2>
                 <br>
@@ -112,20 +124,41 @@ textarea{
                 <a href="" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
             </div>
         </section>
-        <section class="formulario">
-            <form action="#" target="" method="get" name="formDatosPersonales">
+        <section class="Titulo-reserva-tu-cita">
+            <h1 style="text-align: center;" >Reservá tu cita </h1> 
+        </section>
+        
+        <section class="reserva-tu-cita">
+            
+            <h2 style="text-align: center;">A tener en cuenta: </h2>
+            <ol>
+                <li>Exigimos puntualidad para poder respetar el turno de las demas citas</li>
+                <li>De no poder asistir dar aviso, asi podemos darle la oportunidad a otra persona</li>
+                <li>Evitar asistir con niños</li>
+                <li>Se permite el ingreso de dos personas por grupo familiar</li>
+                Para reservar solo debes completar los siquientes datos y darle click a enviar. Luego te enviaremos los dias y horarios disponibles.
+                Te esperamos !
+            </ol>
+        </section>
+       
 
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
+        <section class="formulario">
+            <form id="formDatosPersonales">
+
+                <label for="nombre">Nombre </label>
+                <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required/>
             
-                <label for="apellidos">Apellidos</label>
-                <input type="text" name="apellidos" id="apellidos" placeholder="1r Apellido"/>
+                <label for="apellido"> Apellido</label>
+                <input type="text" name="apellido" id="apellido" placeholder="Escribre tu apellido" required/>
             
-                <label for="email" />Email</label>
+                <label for="email">Email</label>
                 <input type="email" name="email" id="email" placeholder="Email" required />
             
+                <label for="celular">Celular</label>
+                <input type ="text" name="celular" id="celular" placeholder="celular" required/>
+
                 <label for="asunto">Asunto</label>
-                <input type ="text" name="asunto" id="asunto" placeholder="Titular de la consulta"/>
+                <input type="asunto" name="asunto" id="asunto" placeholder="Asunto" required/>
             
                 <label for="mensaje">Mensaje</label>
                 <textarea name="mensaje" for="mensaje" placeholder="Describe brevemente en menos de 300 carácteres" maxlength="300"></textarea>
@@ -133,6 +166,7 @@ textarea{
                 <input type="submit" name="enviar" value="Enviar datos"/>
             </form>
         </section>
+        <div class="citaRegistrada"></div>
 </main>
 <footer id="footer">
         <div class="contenedor-footer">
@@ -170,14 +204,15 @@ textarea{
                 <p>Seguinos:</p>
                 <br>
                 <div class="contenedor-redes">
-                    <a href="" class="redes"><i class="bi bi-instagram"></i></a>
-                    <a href="" class="redes"><i class="bi bi-facebook"></i></a>
-                    <a href="" class="redes"><i class="bi bi-tiktok"></i></a>
+                    <a href="https://instagram.com/queens_altacostura?igshid=ZmVmZTY5ZGE=" class="redes" target="_blank"><i class="bi bi-instagram"></i></a>
+                    <a href="https://m.facebook.com/queensaltacostura1?ref=bookmarks" class="redes" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a href="" class="redes" target="_blank"><i class="bi bi-tiktok"></i></a>
                 </div>
 
             </div>
         </div>
         
 </footer>
+<script src="../js/script.js"></script>
 </body>
 </html>
